@@ -1,0 +1,22 @@
+{
+    "name": "alanalbert/laravel_mutex",
+    "description": "Get the mutex file path of command in laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anhoder",
+            "email": "anhoder@88.com"
+        }
+    ],
+    "require": {
+        "illuminate/console": ">=5.7.0",
+        "illuminate/container": ">=5.7.0",
+        "illuminate/cache": ">=5.7.0"
+    },
+    "autoload": {
+        "files": [
+            "functions.php"
+        ]
+    }
+}
