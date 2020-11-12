@@ -16,3 +16,7 @@ Get the file mutex path of command in laravel or lumen.
     });
    ```
    You can find the file in `storage/framework/cache/data`.
+
+
+**Different environments will get different paths.**
+**不同的运行环境将会得到不同的文件锁路径。**
